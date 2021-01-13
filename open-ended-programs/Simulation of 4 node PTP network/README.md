@@ -1,0 +1,1 @@
+#### 4. Simulate an Ethernet LAN using n nodes (6-10), change error rate and data rate and compare throughput.
