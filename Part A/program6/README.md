@@ -4,7 +4,7 @@
 
 For downloading the package ns-allinone-2.35, use [this](https://sourceforge.net/projects/nsnam/files/allinone/ns-allinone-2.35/) link.
 
-For installing the package, refer to [this](https://youtu.be/qt9NkCi9ZRI) video.
+For installing the package, refer to [this](https://youtu.be/FQsaV3-X72s) video.
 
 Try to run the .TCL file, and if it doesn't work out for you; run the following commands
 
