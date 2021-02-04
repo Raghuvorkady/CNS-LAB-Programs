@@ -54,8 +54,7 @@ Queue/RED set maxthresh_ $maxth
 Agent/TCP set window_ $window
 
 switch $type {
-gsm -
-cdma {cell_topo}
+gsm {cell_topo}
 }
 set_link_params $type
 $ns insert-delayer $nodes(ms) $nodes(bs1) [new Delayer]

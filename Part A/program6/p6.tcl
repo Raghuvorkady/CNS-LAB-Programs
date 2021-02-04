@@ -51,7 +51,6 @@ $ns queue-limit $nodes(bs2) $nodes(ms) 20
 Queue/RED set adaptive_ $adaptive
 Queue/RED set thresh_ $minth
 Queue/RED set maxthresh_ $maxth
-
 Agent/TCP set window_ $window
 
 switch $type {
@@ -90,4 +89,3 @@ exit 0
 }
 $ns at $stop "stop"
 $ns run
-
