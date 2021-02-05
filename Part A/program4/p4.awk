@@ -22,8 +22,8 @@ time2=$2
 }
 END{
 printf("\n **************************************************************************\n");
-printf("The Throughput from n0 to n1: %f Mbps \n", ((pack1*8)/(time1*1000000)));
-printf("The Throughput from n1 to n2: %f Mbps \n", ((pack2*8)/(time2*1000000))); 
+printf("The Throughput from n0 to n1: %f Mbps \n", ((count1*pack1*8)/(time1*1000000)));
+printf("The Throughput from n1 to n2: %f Mbps \n", ((count2*pack2*8)/(time2*1000000))); 
 printf("\n **************************************************************************\n");
 }
 
