@@ -18,3 +18,10 @@
 10. [Write a program on datagram socket for client/server to display the messages on client side, typed at the server side.](Part%20B/program10)
 11. [Write a program for simple RSA algorithm to encrypt and decrypt the data.](Part%20B/program11)
 12. [Write a program for congestion control using leaky bucket algorithm.](Part%20B/program12)
+
+### OPEN ENDED EXPERIMENT
+
+13. [Write a program to find the shortest path between vertices using dijkstra's algorithm.](open-ended-programs/program13)
+14. [Write a program for Diffie-Hellman Key Exchange algorithm to encrypt and decrypt the data.](open-ended-programs/program14)
+15. [Simulate a four node point-to-point network with the links connected as follows: a) n0 – n2, n1 – n2 and n2 – n3. Apply TCP agent between n0-n3 and UDP between n1-n3. Apply relevant applications over TCP and UDP agents, changing the parameter and determine the number of packets sent by TCP / UDP.](open-ended-programs/program15)
+16. [Simulate an Ethernet LAN using n nodes (6-10), change error rate and data rate and compare throughput.](open-ended-programs/program16)
