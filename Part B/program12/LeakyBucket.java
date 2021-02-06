@@ -80,6 +80,7 @@ class InsertThread implements Runnable {
 }
 
 class DeleteThread implements Runnable {
+    //long startTime = System.nanoTime();
     LeakyBucket bkt1; //bkt1 is an instance of Bucket class
 
     public DeleteThread(LeakyBucket bkt) {
@@ -94,9 +95,14 @@ class DeleteThread implements Runnable {
                 bkt1.delete();
                 Thread.sleep(1000);
             }
-            System.out.println("\nAll Packets Have Been Sent");
+	//long endTime = System.nanoTime();
+	//long duration = (endTime - startTime);
+	//System.out.println("Execution time: " + duration + "ns");
         } catch (Exception e) {
             e.printStackTrace();
         }
+	finally{
+        System.out.println("\nAll Packets Have Been Sent");
+	}
     }
 }

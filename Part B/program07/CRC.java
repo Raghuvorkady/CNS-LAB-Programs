@@ -92,7 +92,7 @@ public class CRC {
 			System.out.println("Error occurs at "+(count+1));
 		}	}
 	
-	public static int xor(int x,int y) // xor function
+	public static int xor(int x, int y) // xor function
 	{
 		if(x==y)
 			return(0);

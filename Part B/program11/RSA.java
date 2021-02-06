@@ -35,7 +35,7 @@ public class RSA
 			d = d.add(BigInteger.ONE); // d++
 			temp = (d.multiply(e)).mod(z); // computing (e*d) mod z 
 		}while(!temp.equals(BigInteger.ONE)); // the value of d is accepted if temp==1 
-		System.out.println("Enter Message to Encrypt:");
+		System.out.println("Private Key generated is: "+d+"\nEnter Message to Encrypt:");
 		msg = keyin.readLine();
 		size = msg.length();
 		code = "";
